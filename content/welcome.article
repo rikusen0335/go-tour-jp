@@ -76,7 +76,7 @@ The tour is available in other languages:
 
 [[javascript:highlightAndClick(".next-page")]["next" ボタンをクリック]] するか `PageDown` で進みましょう。
 
-#appengine: * Go offline
+#appengine: * Go offline (任意)
 #appengine: 
 #appengine: この Go Tour はスタンドアロンのプログラムとして動かすこともできます。
 #appengine: 
@@ -86,14 +86,12 @@ The tour is available in other languages:
 #appengine: [[https://golang.org/dl/][Goのダウンロードとインストール]]
 #appengine: し、コマンドラインで以下のように実行します:
 #appengine: 
-#appengine: 	go tool tour
+#appengine: 	go install golang.org/x/website/tour@latest
 #appengine: 
-#appengine: 上記のコマンドの実行に問題がある場合は手動でこのツアーをインストールして実行できます:
-#appengine: 
-#appengine:   go get github.com/atotto/go-tour-jp/gotour
-#appengine:   gotour
-#appengine: 
-#appengine: gotour ではローカルバージョンの tour を表示するウェブブラウザが開きます。
+#appengine: このコマンドを実行すると、
+#appengine: [[GOPATH][https://go.dev/cmd/go/#hdr-GOPATH_and_Modules]]
+#appengine: に`tour`という実行ファイルをダウンロードします。
+#appengine: tour ファイルを実行すると、ローカルバージョンの gotour を表示するウェブブラウザが開きます。
 #appengine: 
 #appengine: もちろん、ここのウェブサイトでGo Tourを続けてもらって構いません。
 
